@@ -1,0 +1,21 @@
+{
+  "name": "youtubedownload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src.js > index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-plugin-module-resolver": "^3.1.1"
+  },
+  "dependencies": {
+    "shortid": "^2.2.14",
+    "ytdl-core": "^0.29.0"
+  }
+}
